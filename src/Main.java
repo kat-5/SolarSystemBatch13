@@ -3,9 +3,12 @@ public class Main {
 
         //write your code here
 
-        //commit before you switch branch
-
         solarSystem inception= new solarSystem();
-        System.out.println("Hello world!");
+
+        inception.Sun=1;
+        inception.Moon=4;
+        inception.Planets=2;
+
+        System.out.println("The basic structure is ready");
     }
 }
